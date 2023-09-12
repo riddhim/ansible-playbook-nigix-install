@@ -49,6 +49,7 @@ Playbook is used when number of command is reuired to hit(multiple tasks)
 start wrinting ansible playbooks in yml
 
 ubuntu@ubuntu:~/ansible$ cat ansible-playbook.yml
+
 ---
 - name: Install and Start nginx
   hosts: all
